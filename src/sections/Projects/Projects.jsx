@@ -3,6 +3,7 @@ import dashboard from '../../assets/dashboard.png';
 import memoryGame from '../../assets/memory.png';
 import payment from '../../assets/payment.png';
 import Kido from '../../assets/kido.png';
+import bytelabs from '../../assets/bytelabs.svg';
 import ProjectCard from '../../common/ProjectCard';
 
 function Projects() {
@@ -33,6 +34,12 @@ function Projects() {
           link="https://github.com/Akram-ku/MobioTrip-payment-dashboard"
           h3="Payment Dash"
           p="Modern Payment Dashboard"
+        />
+        <ProjectCard
+          src={bytelabs}
+          link="https://byte-labs-seven.vercel.app/"
+          h3="ByteLabs"
+          p="independent small scale company"
         />
       </div>
     </section>
